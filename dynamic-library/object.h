@@ -26,7 +26,7 @@ namespace foo
 
     };
 
-    static inline
+    DYNAMIC_LIBRARY_API inline
     std::shared_ptr<object> make_null () { return std::make_shared<null_object>(); }
 
     DYNAMIC_LIBRARY_API
